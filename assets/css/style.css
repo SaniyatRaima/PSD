@@ -1,0 +1,176 @@
+,*body{
+    padding:0 ;
+    margin:0 ;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* global css start here*/
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.padding-tb{
+    padding: 120px 0px;
+}
+.section-header{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.section-header h2{
+    color: #e01e3b;
+    font-size:36px ;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.section-header p{
+    font-size: 16px;
+    color:#555555 ;
+    max-width: 600px;
+    margin:0 auto;
+    margin-bottom: ;
+}
+.section-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* global css ending here*/
+
+/*header section css start here*/
+.header-section{}
+.header-area{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{}
+.logo img{
+    padding: 20px;
+}
+.menu{}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    padding: 5px 5px;
+    color: #1f2a33;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*header section css ending here*/
+
+/*banner section css start here*/
+,*.banner-area{
+    margin: 0px;
+}
+.banner-section{
+    background: url(../../assets/images/banner.jpg);
+    padding:160px 0;
+}
+.banner-area{
+    text-align: center;
+    color:white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+}
+h3{
+    font-size: 48px;
+    text-transform: uppercase;
+    margin:0 auto;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 72px;
+    margin:0 auto;
+}
+p{
+    font-size: 18px;
+}
+/*banner section css ending here*/
+
+/*about section css start here*/
+
+.about-inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.about-thumb{
+    width: 50%;
+}
+.about-content{
+    width: 50%;
+    padding-left: 55px;
+}
+.about-content h6{
+    font-style: italic;
+    color: #e01e3b;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*about section css ending here*/
+/* service section start here*/
+.service-section{
+    background-color: #fafafa;
+    padding: 125px;
+}
+
+.service-inner{
+    background-color: #ffffff;
+    margin: 15px;
+    padding: 0 50px 60px 50px;
+}
+.service-thumb img{
+    margin:50px;
+}
+.service-content h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.service-content p{
+    font-size: 16px;
+}
+/* service section css ending here*/
+/* course section css start here*/
+.course-section{
+    padding:100px ;
+    max-width: 1170px;
+    padding-left: 195px;
+}
+.section-header{
+    margin-bottom: 60px;
+}
+.section-header p{
+    margin-bottom: 30px;
+}
+.section-wraper{
+    max-width: 1170px;
+}
+.course-inner{
+    margin: 10px;
+    padding: 0 10px;
+}
+.course-thumb img{
+    margin: 1px;
+}
+/*course section css ending here*/
+/*footer section css start here*/
+.footer-section{
+    background-color: #e01e3b;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+.footer-area a{
+    color: white;
+}
+/*footer section css ending here*/
